@@ -1,0 +1,7 @@
+{
+  "q33_low_cutoff": 2.0,
+  "q66_med_cutoff": 3.0,
+  "min_count": 1,
+  "max_count": 12,
+  "median_count": 2.0
+}

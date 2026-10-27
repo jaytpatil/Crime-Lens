@@ -1,0 +1,151 @@
+{
+  "n_clusters": 12,
+  "total_incidents_analyzed": 15907,
+  "inertia": 1163.7,
+  "hotspots": [
+    {
+      "cluster_id": 8,
+      "center_latitude": 34.04862,
+      "center_longitude": -118.27475,
+      "incident_count": 2538,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Rampart",
+      "radius_km": 3.16,
+      "percentage_of_total": 15.96,
+      "hotspot_rank": 1
+    },
+    {
+      "cluster_id": 6,
+      "center_latitude": 33.96324,
+      "center_longitude": -118.26574,
+      "incident_count": 2122,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "77th Street",
+      "radius_km": 4.1,
+      "percentage_of_total": 13.34,
+      "hotspot_rank": 2
+    },
+    {
+      "cluster_id": 1,
+      "center_latitude": 34.03338,
+      "center_longitude": -118.234,
+      "incident_count": 1923,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Central",
+      "radius_km": 3.62,
+      "percentage_of_total": 12.09,
+      "hotspot_rank": 3
+    },
+    {
+      "cluster_id": 5,
+      "center_latitude": 34.02336,
+      "center_longitude": -118.31517,
+      "incident_count": 1639,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Southwest",
+      "radius_km": 3.49,
+      "percentage_of_total": 10.3,
+      "hotspot_rank": 4
+    },
+    {
+      "cluster_id": 11,
+      "center_latitude": 34.0947,
+      "center_longitude": -118.33971,
+      "incident_count": 1536,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Hollywood",
+      "radius_km": 3.78,
+      "percentage_of_total": 9.66,
+      "hotspot_rank": 5
+    },
+    {
+      "cluster_id": 4,
+      "center_latitude": 34.21807,
+      "center_longitude": -118.55906,
+      "incident_count": 1391,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "West Valley",
+      "radius_km": 5.59,
+      "percentage_of_total": 8.74,
+      "hotspot_rank": 6
+    },
+    {
+      "cluster_id": 3,
+      "center_latitude": 34.01336,
+      "center_longitude": -118.44707,
+      "incident_count": 1027,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Pacific",
+      "radius_km": 5.04,
+      "percentage_of_total": 6.46,
+      "hotspot_rank": 7
+    },
+    {
+      "cluster_id": 7,
+      "center_latitude": 34.26805,
+      "center_longitude": -118.45254,
+      "incident_count": 969,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Mission",
+      "radius_km": 4.46,
+      "percentage_of_total": 6.09,
+      "hotspot_rank": 8
+    },
+    {
+      "cluster_id": 9,
+      "center_latitude": 34.19118,
+      "center_longitude": -118.38101,
+      "incident_count": 751,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "N Hollywood",
+      "radius_km": 4.09,
+      "percentage_of_total": 4.72,
+      "hotspot_rank": 9
+    },
+    {
+      "cluster_id": 10,
+      "center_latitude": 34.10887,
+      "center_longitude": -118.24046,
+      "incident_count": 707,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Northeast",
+      "radius_km": 3.17,
+      "percentage_of_total": 4.44,
+      "hotspot_rank": 10
+    },
+    {
+      "cluster_id": 0,
+      "center_latitude": 34.18741,
+      "center_longitude": -118.44894,
+      "incident_count": 661,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Van Nuys",
+      "radius_km": 2.94,
+      "percentage_of_total": 4.16,
+      "hotspot_rank": 11
+    },
+    {
+      "cluster_id": 2,
+      "center_latitude": 33.75638,
+      "center_longitude": -118.28999,
+      "incident_count": 643,
+      "dominant_crime": "Assault & Battery",
+      "dominant_area": "Harbor",
+      "radius_km": 3.01,
+      "percentage_of_total": 4.04,
+      "hotspot_rank": 12
+    }
+  ],
+  "top_hotspot": {
+    "cluster_id": 8,
+    "center_latitude": 34.04862,
+    "center_longitude": -118.27475,
+    "incident_count": 2538,
+    "dominant_crime": "Assault & Battery",
+    "dominant_area": "Rampart",
+    "radius_km": 3.16,
+    "percentage_of_total": 15.96,
+    "hotspot_rank": 1
+  },
+  "disclaimer": "Cluster numbers and rankings reflect historical incident density in observed data. They do not constitute a moral judgment or probabilistic forecast of individual behavior."
+}

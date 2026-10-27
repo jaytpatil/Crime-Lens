@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.npm
+.eslintcache
+
+# Datasets and Large Data (Do not commit full raw files to git)
+data/raw/*.csv
+!data/raw/crime_data_sample.csv
+data/processed/*.parquet
+
+# Machine learning models (Joblib)
+models/*.joblib
+!models/.gitkeep
+
+# Environment variables
+.env
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store

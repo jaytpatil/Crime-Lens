@@ -1,0 +1,99 @@
+{
+  "model_type": "Random Forest Classifier",
+  "baseline_model": "Multinomial Logistic Regression",
+  "baseline_accuracy": 0.5199,
+  "accuracy": 0.5468,
+  "precision_macro": 0.4933,
+  "recall_macro": 0.4979,
+  "f1_macro": 0.4864,
+  "f1_weighted": 0.5519,
+  "confusion_matrix": {
+    "labels": [
+      "Low Risk",
+      "Medium Risk",
+      "High Risk"
+    ],
+    "matrix": [
+      [
+        331,
+        104,
+        149
+      ],
+      [
+        66,
+        48,
+        94
+      ],
+      [
+        44,
+        66,
+        252
+      ]
+    ]
+  },
+  "feature_importances": [
+    {
+      "feature": "LAPD Geographic Area",
+      "importance": 0.3872
+    },
+    {
+      "feature": "Time of Day Period",
+      "importance": 0.2856
+    },
+    {
+      "feature": "Month of Year",
+      "importance": 0.1891
+    },
+    {
+      "feature": "Day of Week",
+      "importance": 0.1172
+    },
+    {
+      "feature": "Is Weekend Flag",
+      "importance": 0.021
+    }
+  ],
+  "thresholds": {
+    "q33_low_cutoff": 2.0,
+    "q66_med_cutoff": 3.0,
+    "min_count": 1,
+    "max_count": 12,
+    "median_count": 2.0
+  },
+  "train_samples": 4615,
+  "test_samples": 1154,
+  "class_distribution_train": {
+    "Low Risk": 2538,
+    "High Risk": 1246,
+    "Medium Risk": 831
+  },
+  "class_distribution_test": {
+    "Low Risk": 584,
+    "High Risk": 362,
+    "Medium Risk": 208
+  },
+  "supported_areas": [
+    "77th Street",
+    "Central",
+    "Devonshire",
+    "Foothill",
+    "Harbor",
+    "Hollenbeck",
+    "Hollywood",
+    "Mission",
+    "N Hollywood",
+    "Newton",
+    "Northeast",
+    "Olympic",
+    "Pacific",
+    "Rampart",
+    "Southeast",
+    "Southwest",
+    "Topanga",
+    "Van Nuys",
+    "West LA",
+    "West Valley",
+    "Wilshire"
+  ],
+  "academic_notes": "Categories represent historical incident frequency quartiles. This model provides an educational analytical estimation of aggregate crime density, not an individual behavioral prediction."
+}
